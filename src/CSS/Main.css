@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+.Header{
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    background-color:#fff4f4;
+    height: 10%;
+}
+.App{
+    padding-top: 70px;
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+}
+.first-load-screen{
+    position: fixed;
+    /* App is only 90% of viewport height - 10% is header */
+    top: 55%;
+    left: 0;
+    transform: translateY(-50%);
+
+    height: 50%;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

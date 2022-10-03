@@ -1,0 +1,232 @@
+.signup-popup{
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.58);
+}
+.signup-info{
+    width: 41%;
+    max-width: 500px;
+    min-width: 350px;
+    height: 50%;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.signup-popup button{
+    margin-top: -60px;
+    position: fixed;
+    top: 70%;
+}
+.signup-popup input{
+    width: 100%;
+}
+.signup-popup .main-label{
+    z-index: 12;
+    margin-bottom: -60px;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.signup-email,
+.signup-password{
+    max-width: 180px;
+    width: 40%;
+    height: 50%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.signup-info label{
+    margin: 5%;
+    font-size: 1.1rem;
+    z-index: 10;
+}
+.signup-info input:focus{
+    background-color: rgba(218, 165, 32, 0.104);
+    outline-color: black;
+}
+.signup-error{
+    position: fixed;
+    top: 50%;
+    transform: translateY(-55%);
+    width: 40%;
+    max-width: 500px;
+    min-width: 350px;
+    height: 50%;
+
+    opacity: 0.9;
+    font-size: 3rem;
+    font-weight: bold;
+    border: 1px solid black;
+    text-align: center;
+    background-color: gray;
+
+    z-index: 13;
+    display: flex;
+    align-items: center;
+}
+.choose-avatar-overlay{
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.58);
+}
+.choose-avatar{
+    width: 50%;
+    min-width: 600px;
+    height: 30%;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.choose-avatar h3{
+    font-size: 1.8rem;
+    margin: 10px;
+}
+.choose-avatar h6{
+    margin: 5px;
+    font-size: 1rem;
+    font-weight: 100;
+}
+.avatar-line img{
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    transition: 1s all;
+    gap: 10px;
+
+}
+.avatar-line img:hover{
+    transform:scale(1.1);
+}
+.avatar-line img:focus{
+    border-radius: 50px;
+    box-shadow: 1px 1px 5px 5px rgba(189, 189, 189, 0.483);
+}
+.avatar-submit{
+    margin: 10px;
+}
+.succesful-signup{
+    opacity: 0;
+    transition: 1s all;
+    width: 50%;
+    min-width: 600px;
+    height: 30%;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+.login-popup{
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.58);
+}
+.login-info{
+    width: 40%;
+    max-width: 230px;
+    min-width: 180px;
+    height: 40%;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.login-info label{
+    width: 150px;
+    font-size: 1.1rem;
+    margin: 5%;
+}
+.login-info input{
+    margin: 0;
+}
+.login-info span{
+    width: 200px;
+    align-self: center;
+}
+.login-info .login-label{
+    width: 200px;
+    font-weight: bold;
+    font-size: 1.3rem;
+    position: fixed;
+    margin-top: -190px;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    position: fixed;
+    margin-top: 200px;
+}
+.login-error{
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40%;
+    max-width: 230px;
+    min-width: 180px;
+    height: 40%;
+
+    opacity: 0.9;
+    font-size: 2rem;
+    font-weight: bold;
+    border: 1px solid black;
+    text-align: center;
+    background-color: gray;
+
+    z-index: 13;
+    display: flex;
+    align-items: center;
+}
+

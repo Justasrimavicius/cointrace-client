@@ -1,0 +1,4 @@
+This is going to be a crypto information project based on Coingecko API.
+Link to the API: https://rapidapi.com/coingecko/api/coingecko/
+Not sure what this API is fully capable yet, therefore cant tell what exactly this project will be able to do - will try to implement various features that a real crypto website would have.
+Will use React for the frontend and Firebase for the backend(will be minimal backend integration - mainly focused on API and React use).

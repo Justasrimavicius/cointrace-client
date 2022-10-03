@@ -1,0 +1,167 @@
+.logged-in-app{
+    width: 100vw;
+    height: 90vh;
+    margin-top: 10vh;
+
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr;
+}
+
+.home{
+    display: grid;
+    grid-template-columns: 5fr 3fr;
+    grid-template-rows: 5fr 1fr;
+    overflow: scroll;
+
+}
+.home-arrow:hover{
+    transform: scale(1.08);
+}
+.left-side{
+    grid-row: 1/3;
+}
+.middle{
+    grid-row: 1/2;
+}
+.right-side{
+    grid-row: 1/2;
+}
+.footer{
+    grid-row: 2/3;
+    grid-column: 1/3;
+}
+.left-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+.middle{
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+}
+.middle-balance{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid black;
+
+    border-bottom: 0;
+    border-right: 0;
+}
+.middle-coins{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-bottom: 0;
+    border-right: 0;
+}
+.middle-coins-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.middle-coins-top-icon{transition: 1s all;}
+.middle-coins-top-icon:hover{
+    transform: scale(1.1);
+}
+.middle-coins-bottom{
+    height: 90%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.right-side{
+    display: grid;
+    grid-template-rows: 1fr 10fr;
+    
+
+
+
+
+    border: 1px solid black;
+    border-bottom: 0;
+}
+.right-side-upper{
+    border-bottom: 1px solid black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.right-side-lower{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.nft,
+.staking,
+.blockchain{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: 1px solid gray;
+}
+.blockchain{
+    border-bottom: 0;
+}
+.right-side-lower img{transition: 1s all}
+.right-side-lower img:hover{
+    transform: scale(1.01);
+}
+
+
+
+
+
+.footer{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+
+
+.portfolio{
+    display: grid;
+    grid-template-columns: 5fr 3fr;
+    height: 90vh;
+}
+.portfolio-left{
+    border: 1px solid black;
+    border-top: 0;
+}
+.portfolio-left-upper{
+    border-bottom: 1px solid black;
+    height: 15vh;
+}
+/* .portfolio-left-coins{
+}
+.portfolio-right{
+
+} */
+
+.trade{
+    border: 1px solid black;
+    border-top: 0;
+}

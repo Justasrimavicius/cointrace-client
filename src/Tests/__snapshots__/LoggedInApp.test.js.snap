@@ -1,0 +1,567 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoggedInApp sections home section 1`] = `
+<div
+  className="home"
+>
+  <div
+    className="middle"
+  >
+    <div
+      className="middle-balance"
+    >
+      <h6
+        className="MuiTypography-root MuiTypography-h6 css-2ulfj5-MuiTypography-root"
+      >
+        Your balance
+      </h6>
+      <h3
+        className="MuiTypography-root MuiTypography-h3 middle-balance-number css-gepadz-MuiTypography-root"
+      >
+        00.00
+        $
+        <svg
+          aria-hidden={true}
+          className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium home-arrow css-i4bv87-MuiSvgIcon-root"
+          data-testid="ArrowForwardIosIcon"
+          focusable="false"
+          onClick={[Function]}
+          style={
+            Object {
+              "marginBottom": "4px",
+            }
+          }
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M6.23 20.23 8 22l10-10L8 2 6.23 3.77 14.46 12z"
+          />
+        </svg>
+      </h3>
+    </div>
+    <div
+      className="middle-coins"
+    >
+      <div
+        className="middle-coins-top"
+      >
+        <h6
+          className="MuiTypography-root MuiTypography-h6 css-2ulfj5-MuiTypography-root"
+          style={
+            Object {
+              "marginLeft": "5px",
+            }
+          }
+        >
+          Popular coins
+        </h6>
+        <svg
+          aria-hidden={true}
+          className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium middle-coins-top-icon css-i4bv87-MuiSvgIcon-root"
+          data-testid="ShoppingCartCheckoutIcon"
+          focusable="false"
+          onClick={[Function]}
+          style={
+            Object {
+              "margin": "5px",
+            }
+          }
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2zm-8.9-5h7.45c.75 0 1.41-.41 1.75-1.03L21 4.96 19.25 4l-3.7 7H8.53L4.27 2H1v2h2l3.6 7.59-1.35 2.44C4.52 15.37 5.48 17 7 17h12v-2H7l1.1-2zM12 2l4 4-4 4-1.41-1.41L12.17 7H8V5h4.17l-1.59-1.59L12 2z"
+          />
+        </svg>
+      </div>
+      <div
+        className="middle-coins-bottom"
+      >
+        <div
+          className="MuiTableContainer-root css-rorn0c-MuiTableContainer-root"
+          style={
+            Object {
+              "height": "100%",
+              "overflow": "auto",
+            }
+          }
+        >
+          <table
+            className="MuiTable-root css-rqglhn-MuiTable-root"
+            data-testid="home-table"
+            height="100%"
+            role={null}
+          >
+            <thead
+              className="MuiTableHead-root css-15wwp11-MuiTableHead-root"
+              role={null}
+            >
+              <tr
+                className="MuiTableRow-root MuiTableRow-head css-1q1u3t4-MuiTableRow-root"
+                role={null}
+              >
+                <th
+                  aria-sort={null}
+                  className="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeMedium css-twzqbi-MuiTableCell-root"
+                  scope="col"
+                >
+                  Name
+                </th>
+                <th
+                  aria-sort={null}
+                  className="MuiTableCell-root MuiTableCell-head MuiTableCell-alignRight MuiTableCell-sizeMedium css-1ef1k85-MuiTableCell-root"
+                  scope="col"
+                >
+                  Current price $
+                </th>
+                <th
+                  aria-sort={null}
+                  className="MuiTableCell-root MuiTableCell-head MuiTableCell-alignRight MuiTableCell-sizeMedium css-1ef1k85-MuiTableCell-root"
+                  scope="col"
+                >
+                  Market cap %
+                </th>
+                <th
+                  aria-sort={null}
+                  className="MuiTableCell-root MuiTableCell-head MuiTableCell-alignRight MuiTableCell-sizeMedium css-1ef1k85-MuiTableCell-root"
+                  scope="col"
+                >
+                  Market cap change 24h %
+                </th>
+                <th
+                  aria-sort={null}
+                  className="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeMedium css-twzqbi-MuiTableCell-root"
+                  scope="col"
+                >
+                  Purchase
+                </th>
+              </tr>
+            </thead>
+            <tbody
+              className="MuiTableBody-root css-apqrd9-MuiTableBody-root"
+              role={null}
+              style={
+                Object {
+                  "overflow": "hidden",
+                }
+              }
+            />
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="right-side"
+  >
+    <div
+      className="right-side-upper"
+    >
+      <button
+        align="center"
+        className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-fullWidth css-10vjzfb-MuiButtonBase-root-MuiButton-root"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onContextMenu={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        Check your crypto knowledge!
+      </button>
+    </div>
+    <div
+      className="right-side-lower"
+    >
+      <div
+        className="nft"
+      >
+        <h6
+          className="MuiTypography-root MuiTypography-subtitle1 css-10wpov9-MuiTypography-root"
+          style={
+            Object {
+              "alignSelf": "center",
+              "margin": "10px",
+            }
+          }
+        >
+          What are NFTs and where did they come from?
+        </h6>
+        <img
+          onClick={[Function]}
+          src="nft.png"
+          style={
+            Object {
+              "alignSelf": "center",
+            }
+          }
+          width="140px"
+        />
+      </div>
+      <div
+        className="staking"
+      >
+        <img
+          onClick={[Function]}
+          src="staking.png"
+          style={
+            Object {
+              "alignSelf": "center",
+            }
+          }
+          width="140px"
+        />
+        <h6
+          className="MuiTypography-root MuiTypography-subtitle1 css-10wpov9-MuiTypography-root"
+          style={
+            Object {
+              "alignSelf": "center",
+              "margin": "10px",
+            }
+          }
+        >
+          What is staking and why is it so amazing?
+        </h6>
+      </div>
+      <div
+        className="blockchain"
+      >
+        <h6
+          className="MuiTypography-root MuiTypography-subtitle1 css-10wpov9-MuiTypography-root"
+          style={
+            Object {
+              "alignSelf": "center",
+              "margin": "10px",
+            }
+          }
+        >
+          How the allmighty blockchain works
+        </h6>
+        <img
+          onClick={[Function]}
+          src="blockchain.png"
+          style={
+            Object {
+              "alignSelf": "center",
+            }
+          }
+          width="140px"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="footer"
+  >
+    <span>
+      @2022 
+      <a
+        href="https://github.com/Justasrimavicius/"
+        style={
+          Object {
+            "textDecoration": "none",
+          }
+        }
+      >
+        https://github.com/Justasrimavicius/
+      </a>
+    </span>
+    <button
+      className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textSecondary MuiButton-sizeMedium MuiButton-textSizeMedium css-1d3f8j8-MuiButtonBase-root-MuiButton-root"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onContextMenu={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex={0}
+      type="button"
+    >
+      Click me for a surprise
+    </button>
+  </div>
+</div>
+`;
+
+exports[`LoggedInApp sections portfolio section 1`] = `
+<div
+  className="portfolio"
+>
+  <div
+    className="portfolio-left"
+  >
+    <div
+      className="portfolio-left-upper"
+    >
+      <p
+        className="MuiTypography-root MuiTypography-body1 MuiTypography-alignCenter css-14h5f3b-MuiTypography-root"
+      >
+        Fiat balance:
+      </p>
+      <h3
+        className="MuiTypography-root MuiTypography-h3 MuiTypography-alignCenter portfolio-left-balance css-47suzj-MuiTypography-root"
+      >
+        0.00
+        $
+      </h3>
+    </div>
+    <div
+      className="portfolio-left-coins"
+    >
+      <div
+        className="MuiTableContainer-root css-rorn0c-MuiTableContainer-root"
+        style={
+          Object {
+            "height": "75vh",
+          }
+        }
+      >
+        <table
+          aria-label="customized table"
+          className="MuiTable-root MuiTable-stickyHeader css-xn82ks-MuiTable-root"
+          role={null}
+        >
+          <thead
+            className="MuiTableHead-root css-15wwp11-MuiTableHead-root"
+            role={null}
+          >
+            <tr
+              className="MuiTableRow-root MuiTableRow-head css-1q1u3t4-MuiTableRow-root"
+              role={null}
+            >
+              <th
+                aria-sort={null}
+                className="MuiTableCell-root MuiTableCell-head MuiTableCell-stickyHeader MuiTableCell-alignLeft MuiTableCell-sizeMedium css-1x9ecgr-MuiTableCell-root"
+                scope="col"
+              >
+                Name
+              </th>
+              <th
+                aria-sort={null}
+                className="MuiTableCell-root MuiTableCell-head MuiTableCell-stickyHeader MuiTableCell-alignRight MuiTableCell-sizeMedium css-1cqtko9-MuiTableCell-root"
+                scope="col"
+              >
+                Balance
+              </th>
+              <th
+                aria-sort={null}
+                className="MuiTableCell-root MuiTableCell-head MuiTableCell-stickyHeader MuiTableCell-alignRight MuiTableCell-sizeMedium css-1cqtko9-MuiTableCell-root"
+                scope="col"
+              >
+                Price of 1
+              </th>
+              <th
+                aria-sort={null}
+                className="MuiTableCell-root MuiTableCell-head MuiTableCell-stickyHeader MuiTableCell-alignRight MuiTableCell-sizeMedium css-1cqtko9-MuiTableCell-root"
+                scope="col"
+              >
+                24h price change %
+              </th>
+            </tr>
+          </thead>
+          <tbody
+            className="MuiTableBody-root css-apqrd9-MuiTableBody-root"
+            role={null}
+          />
+        </table>
+        <button
+          className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-fullWidth css-10vjzfb-MuiButtonBase-root-MuiButton-root"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          No coins in your portfolio. Add some!
+          <span
+            className="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="portfolio-right"
+  >
+    <button
+      className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-fullWidth topup-button css-10vjzfb-MuiButtonBase-root-MuiButton-root"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onContextMenu={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "borderBottom": "1px solid black",
+          "borderRadius": "0px",
+          "height": "161px",
+        }
+      }
+      tabIndex={0}
+      type="button"
+    >
+      Top up your balance
+      <span
+        className="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+      />
+    </button>
+  </div>
+</div>
+`;
+
+exports[`LoggedInApp sections trade section 1`] = `
+<div
+  className="trade"
+  style={
+    Object {
+      "width": "100%",
+    }
+  }
+>
+  <h6
+    className="MuiTypography-root MuiTypography-h6 MuiTypography-alignCenter css-1kgxqm0-MuiTypography-root"
+  >
+    Your balance
+  </h6>
+  <h3
+    className="MuiTypography-root MuiTypography-h3 MuiTypography-alignCenter css-47suzj-MuiTypography-root"
+  >
+    0.00
+    $
+  </h3>
+  <div
+    className="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root trade-search css-wb57ya-MuiFormControl-root-MuiTextField-root"
+    style={
+      Object {
+        "height": "50px",
+      }
+    }
+  >
+    <div
+      className="MuiInputBase-root MuiFilledInput-root MuiFilledInput-underline MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl css-gjbq6i-MuiInputBase-root-MuiFilledInput-root"
+      onClick={[Function]}
+    >
+      <input
+        aria-invalid={false}
+        autoFocus={false}
+        className="MuiInputBase-input MuiFilledInput-input css-10botns-MuiInputBase-input-MuiFilledInput-input"
+        disabled={false}
+        id=":r0:"
+        onAnimationStart={[Function]}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        placeholder="Bitcoin, ethereum, solana, etc."
+        required={false}
+        type="text"
+      />
+    </div>
+  </div>
+  <div
+    className="MuiTableContainer-root css-rorn0c-MuiTableContainer-root"
+    style={
+      Object {
+        "marginTop": "5px",
+      }
+    }
+  >
+    <table
+      aria-label="customized table"
+      className="MuiTable-root css-rqglhn-MuiTable-root"
+      role={null}
+      style={
+        Object {
+          "overflow": "auto",
+        }
+      }
+    >
+      <thead
+        className="MuiTableHead-root css-15wwp11-MuiTableHead-root"
+        role={null}
+      >
+        <tr
+          className="MuiTableRow-root MuiTableRow-head css-1q1u3t4-MuiTableRow-root"
+          role={null}
+        >
+          <th
+            aria-sort={null}
+            className="MuiTableCell-root MuiTableCell-head MuiTableCell-alignLeft MuiTableCell-sizeMedium css-twzqbi-MuiTableCell-root"
+            scope="col"
+          >
+            Name
+          </th>
+          <th
+            aria-sort={null}
+            className="MuiTableCell-root MuiTableCell-head MuiTableCell-alignRight MuiTableCell-sizeMedium css-1ef1k85-MuiTableCell-root"
+            scope="col"
+          >
+            Price
+          </th>
+          <th
+            aria-sort={null}
+            className="MuiTableCell-root MuiTableCell-head MuiTableCell-alignRight MuiTableCell-sizeMedium css-1ef1k85-MuiTableCell-root"
+            scope="col"
+          >
+            Market cap
+          </th>
+          <th
+            aria-sort={null}
+            className="MuiTableCell-root MuiTableCell-head MuiTableCell-alignRight MuiTableCell-sizeMedium css-1ef1k85-MuiTableCell-root"
+            scope="col"
+          >
+            24h change
+          </th>
+          <th
+            aria-sort={null}
+            className="MuiTableCell-root MuiTableCell-head MuiTableCell-alignRight MuiTableCell-sizeMedium css-1ef1k85-MuiTableCell-root"
+            scope="col"
+          >
+            Purchase
+          </th>
+        </tr>
+      </thead>
+      <tbody
+        className="MuiTableBody-root css-apqrd9-MuiTableBody-root"
+        role={null}
+      />
+    </table>
+  </div>
+</div>
+`;

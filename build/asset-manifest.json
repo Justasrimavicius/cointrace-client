@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8870e507.css",
+    "main.js": "/static/js/main.5f371d5e.js",
+    "static/media/btc.png": "/static/media/btc.021f5545eb2bdda1a55f.png",
+    "static/media/nft.png": "/static/media/nft.a9fe095dcd60a85fceac.png",
+    "static/media/bnb.png": "/static/media/bnb.12f6ca37a23eaa38e0a3.png",
+    "static/media/btc_phone.png": "/static/media/btc_phone.4630a932c4ef4a92e873.png",
+    "static/media/staking.png": "/static/media/staking.ca789cb7d103a0b72774.png",
+    "static/media/ada.png": "/static/media/ada.4e38449916b62de1981e.png",
+    "static/media/blockchain.png": "/static/media/blockchain.71c8d1e55768884823e8.png",
+    "static/media/dot.png": "/static/media/dot.2929ab0051f7be185f42.png",
+    "index.html": "/index.html",
+    "main.8870e507.css.map": "/static/css/main.8870e507.css.map",
+    "main.5f371d5e.js.map": "/static/js/main.5f371d5e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8870e507.css",
+    "static/js/main.5f371d5e.js"
+  ]
+}
