@@ -141,7 +141,6 @@ function Portfolio(props){
     },[])
 
     useEffect(()=>{
-        console.log(coins);
         setCoinsDisplay(true);
     },[coins])
 

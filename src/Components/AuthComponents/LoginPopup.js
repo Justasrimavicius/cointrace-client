@@ -10,7 +10,6 @@ function LoginPopup(props){
     let navigate = useNavigate();
 
     if(props.props.login!=null){
-        console.log(props);
         function LoginUser(email,password,form){
             signInWithEmailAndPassword(auth, email, password)
               .then((userCredential) => {

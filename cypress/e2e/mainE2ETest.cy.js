@@ -58,8 +58,8 @@ describe('cointrace test', () => {
     cy.findByTestId('bitcoin-price-testing').then(newBtcValue=>{
       const newBtc = newBtcValue[0].innerText.slice(0, newBtcValue[0].innerText.length-1);
       expect(parseFloat(newBtc)).to.be.greaterThan(parseFloat(oldBtc));
-      console.log(oldBtc);
-      console.log(newBtc);
+      // console.log(oldBtc);
+      // console.log(newBtc);
     })
 
     // logouts
