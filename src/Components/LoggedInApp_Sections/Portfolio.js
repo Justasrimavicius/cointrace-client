@@ -150,7 +150,7 @@ function Portfolio(props){
             <div className="portfolio-left">
                 <div className="portfolio-left-upper">
                     <Typography align="center" paddingTop='10px'>Fiat balance:</Typography>
-                    <Typography variant="h3" className="portfolio-left-balance" align="center">{fiatAmount}$</Typography>
+                    <Typography variant="h3" className="portfolio-left-balance" align="center" data-testid='fiatAmount-portfolio'>{fiatAmount}$</Typography>
                 </div>
                 <div className="portfolio-left-coins">
                     <TableContainer style={{height:'75vh'}}>
@@ -167,8 +167,10 @@ function Portfolio(props){
                                 {coinsDisplay ? coins.map((coin)=>{
                                     return(<TableRow key={uniqid()}>
                                        <StyledTableCell align="left">{coin.name}</StyledTableCell>
-                                       <StyledTableCell align="right">{coin.amount}</StyledTableCell>
-                                       <StyledTableCell align="right">{coin.price}$</StyledTableCell>
+                                       {(coin.name=='bitcoin') ? 
+                                       <StyledTableCell align="right" data-testid='bitcoin-price-testing'>{coin.amount}$</StyledTableCell> 
+                                       : <StyledTableCell align="right">{coin.amount}$</StyledTableCell>}
+                                      <StyledTableCell align="right">{coin.price}$</StyledTableCell>
                                        <StyledTableCell align="right">{parseFloat(coin.priceChange24h).toFixed(2)}%</StyledTableCell>
                                     </TableRow>)
                                 }) : null }
@@ -185,7 +187,7 @@ function Portfolio(props){
             {balanceTopup ? 
                 <Dialog open={true}>
                     <DialogTitle align="center">Type in an amount</DialogTitle>
-                        <DialogTitle align="center">You can only topup your balance once - we recommend you insert a high amount(maximum 100 millions)</DialogTitle>
+                        <DialogTitle align="center">You can only topup your balance once - we recommend you insert a high amount(maximum 100 million)</DialogTitle>
                     <TextField type='number' variant="filled" className="fiat-amount" placeholder="100000.00" onChange={(e)=>{setMockFiatAmount(e.target.value)}}></TextField>
                     <div style={{display:'flex',flexDirection:'row', justifyContent:'space-around'}}>
                         <Button variant="outlined" fullWidth onClick={()=>{HandleTopup()}}>Continue</Button>

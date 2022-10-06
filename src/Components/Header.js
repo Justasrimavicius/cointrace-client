@@ -29,6 +29,7 @@ function Header(props){
     async function getAvatar(){
         try{
             const docRef = doc(db, "users", sessionStorage.getItem('user'));
+            console.log(docRef)
             const docSnap = getDoc(docRef).then((e)=>{
             setAvatarLink(require(`../Images/ProfileImages/${e.data().avatar}.png`));
             });

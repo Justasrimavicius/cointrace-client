@@ -26,9 +26,9 @@ function PurchaseCoin(props){
     }
 
     function continuePurchase(coin, coinAmount){
-
         let oneCoinPrice = coin.market_data.current_price.usd;
         let priceInFiat = oneCoinPrice*coinAmount;
+
 
         const userData = getDoc(doc(db, 'users', `${UID}`))
         .then((user)=>{
@@ -63,7 +63,6 @@ function PurchaseCoin(props){
 
             }
         })
-    
     }
 
     useEffect(()=>{
@@ -85,7 +84,6 @@ function PurchaseCoin(props){
         </Dialog>
         {alert ? <Dialog open={true}><Typography variant="h3">{alert}</Typography></Dialog> : null}
         </React.Fragment>
-
     )
 
 }

@@ -56,10 +56,10 @@ function LoginPopup(props){
             <div className="login-popup" data-testid='loginPopup'>
                 <form className="login-info" name="loginInfo" onSubmit={(e)=>{formSubmit(e)}}>
                     <Typography variant='h5' className="login-label">Enter the information</Typography>
-                        <TextField label="Email" variant="filled" type={'email'} name='email' required pattern="^[^\s@]+@[^\s@]+\.[^\s@]+$"></TextField>
-                        <TextField label="Password" variant="filled" type={'password'} name='password' required></TextField>
+                        <TextField data-testid='loginEmail' label="Email" variant="filled" type={'email'} name='email' required pattern="^[^\s@]+@[^\s@]+\.[^\s@]+$"></TextField>
+                        <TextField data-testid='loginPassword' label="Password" variant="filled" type={'password'} name='password' required></TextField>
                     <div className="buttons">
-                        <Button variant='outlined'  type="button" onClick={(e)=>{formSubmit(e)}}>Log in</Button>
+                        <Button data-testid='loginButtonFinal' variant='outlined'  type="button" onClick={(e)=>{formSubmit(e)}}>Log in</Button>
                         <Button variant="outlined"  style={{maxWidth:'10px', minWidth:'10px'}} onClick={()=>{props.props.loadLogin(null)}}>X</Button>
                     </div>
 

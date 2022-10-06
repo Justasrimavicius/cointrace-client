@@ -70,7 +70,7 @@ function Trade(){
     return(
         <div className='trade' style={{width:'100%'}}>
                 <Typography variant='h6' align='center'>Your balance</Typography>
-                <Typography variant='h3' align='center'>{fiatAmount}$</Typography>
+                <Typography variant='h3' align='center' data-testid='fiatAmount-trade'>{fiatAmount}$</Typography>
 
             <TextField variant='filled' fullWidth placeholder='Bitcoin, ethereum, solana, etc.' style={{height:'50px'}} onChange={(e)=>{CallCryptoAPI(e)}} className='trade-search'></TextField>
             <TableContainer style={{marginTop:'5px'}}>

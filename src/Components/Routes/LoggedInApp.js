@@ -52,7 +52,7 @@ function LoggedInApp(){
 
                         <Divider />
                     </List>
-                    <Button variant="contained" color="secondary" style={{borderRadius:'5px 5px 0px 5px'}} onClick={()=>{navigate('/')}}>Log out</Button>
+                    <Button data-testid='logout-btn-leftPanel' variant="contained" color="secondary" style={{borderRadius:'5px 5px 0px 5px'}} onClick={()=>{navigate('/')}}>Log out</Button>
                 </div>
                 {sidePanelTab=='home' ? <Home loadFromSidePanel={{sidePanelTab, loadSidePanelTab}}/> : null}
                 {sidePanelTab=='portfolio' ? <Portfolio loadFromSidePanel={{sidePanelTab, loadSidePanelTab}}/> : null}

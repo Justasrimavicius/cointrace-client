@@ -23,7 +23,7 @@ function Home(props){
 
     const [fiatAmount, setFiatAmount] = useState('00.00');
     const [coins, setCoins] = useState([]);
-    let coinsNames = ['bitcoin', 'ethereum', 'polkadot', 'litecoin', 'chainlink'];
+    let coinsNames = ['bitcoin', 'ethereum', 'polkadot', 'chainlink', 'cardano'];
 
     useEffect(()=>{ // updates fiat money in UI
         const userData = getDoc(doc(db, 'users', `${UID}`))
@@ -34,7 +34,6 @@ function Home(props){
                 setFiatAmount('0.00');
             }
         })
-
     },[]);
 
     useEffect(()=>{
@@ -46,12 +45,7 @@ function Home(props){
             .catch((error)=>{
             })
         })
-      
     },[])
-
-    useEffect(()=>{
-        console.log(coins)
-    },[coins])
 
     const StyledTableCell = styled(TableCell)(({ theme }) => ({
         [`&.${tableCellClasses.head}`]: {
@@ -93,7 +87,7 @@ function Home(props){
                                     coins.map(coin=>{
                                         return (
                                         <TableRow key={uniqid()}>
-                                            <StyledTableCell align="right" style={{display:'flex',flexDirection:'row',alignItems:'center', minHeight:'40px', maxHeight:'40px',borderBottom:'1px solid gray'}} ><Avatar src={`${coin.image.small}`} style={{width:'25px', height:'25px'}} />{coin.name}</StyledTableCell>
+                                            <StyledTableCell align="right" style={{textAlign:'center', minHeight:'40px', maxHeight:'40px',borderBottom:'1px solid gray'}} ><Avatar src={`${coin.image.small}`} style={{width:'25px', height:'25px',transform:'translate(-50%)', marginLeft: '50%'}} />{coin.name}</StyledTableCell>
                                             <StyledTableCell align="right">{coin.market_data.current_price.usd.toFixed(2)}$</StyledTableCell>
                                             <StyledTableCell align="right">{numeral(coin.market_data.market_cap.usd).format('0.00a')}$</StyledTableCell>
                                             {coin.market_data.market_cap_change_percentage_24h > 0 ? <StyledTableCell align="right" style={{color:'green'}}>{coin.market_data.market_cap_change_percentage_24h.toFixed(2)}%</StyledTableCell>
